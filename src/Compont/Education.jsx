@@ -28,12 +28,13 @@ export default function Education() {
       <div className="bg-pink-200 rounded-3xl px-4 py-10">
         {/* Heading */}
         <div className="flex justify-center mb-10">
-          <div className="flex items-center gap-2 flex-wrap text-center">
-            <img src="/Images/education.png" alt="education" width={60} />
-            <h2 className="text-3xl text-amber-400 font-bold">
+          <div className="flex flex-col items-center justify-center mb-8 text-center gap-3 md:flex-row md:gap-4">
+            <img src="/Images/education.png" alt="education" width={70} className="mx-auto" />
+            <div className="text-3xl text-amber-400 font-bold">
               My <span className="text-green-600">Education</span>
-            </h2>
+            </div>
           </div>
+
         </div>
 
         {/* Education Cards */}
