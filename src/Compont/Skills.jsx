@@ -31,18 +31,18 @@ export default function Skills() {
         </div>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8 justify-items-center">
           {skills.map((item) => (
             <div
               key={item.key}
-              className="flex flex-col justify-center items-center gap-10 bg-purple-950 p-5 rounded-3xl w-[170px] h-[170px] hover:bg-pink-400 hover:scale-105 duration-300"
+              className="flex flex-col justify-center items-center gap-4 sm:gap-6 bg-purple-950 p-4 rounded-2xl w-[130px] sm:w-[150px] md:w-[170px] h-[130px] sm:h-[150px] md:h-[170px] hover:bg-pink-400 hover:scale-105 duration-300"
             >
               <img
                 src={item.logo}
                 alt={item.name}
-                className="w-[60px] h-[60px] object-contain"
+                className="w-[40px] sm:w-[50px] md:w-[60px] h-auto object-contain"
               />
-              <span className="text-white text-center text-[16px] font-medium">
+              <span className="text-white text-center text-[14px] sm:text-[15px] md:text-[16px] font-medium">
                 {item.name}
               </span>
             </div>

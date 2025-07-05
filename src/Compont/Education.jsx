@@ -25,14 +25,14 @@ export default function Education() {
 
   return (
     <Resuable id="education">
-      <div className="bg-pink-200 rounded-4xl px-4 py-10">
+      <div className="bg-pink-200 rounded-3xl px-4 py-10">
         {/* Heading */}
-        <div className="flex justify-center mb-8">
-          <div className="flex items-center gap-2">
-            <img src="/Images/education.png" alt="education" width={70} />
-            <div className="text-3xl text-amber-400 font-bold">
+        <div className="flex justify-center mb-10">
+          <div className="flex items-center gap-2 flex-wrap text-center">
+            <img src="/Images/education.png" alt="education" width={60} />
+            <h2 className="text-3xl text-amber-400 font-bold">
               My <span className="text-green-600">Education</span>
-            </div>
+            </h2>
           </div>
         </div>
 
@@ -41,17 +41,19 @@ export default function Education() {
           {education.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row gap-6 items-center bg-amber-50 rounded-3xl px-6 py-4 w-full max-w-[700px] hover:scale-105 transition-transform duration-500 cursor-pointer shadow"
+              className="flex flex-col sm:flex-row gap-5 items-center bg-white rounded-2xl px-6 py-6 w-full max-w-[800px] shadow hover:scale-105 transition duration-300"
             >
-              <img
-                src={item.img}
-                alt={item.institution}
-                className="rounded-2xl shadow-md w-[120px] md:w-[200px]"
-              />
-              <div className="text-center md:text-left">
-                <h1 className="text-2xl font-bold text-blue-950">{item.institution}</h1>
-                <p className="text-lg">{item.course}</p>
-                <h2 className="text-xl text-green-900">{item.duration}</h2>
+              <div className="flex-shrink-0">
+                <img
+                  src={item.img}
+                  alt={item.institution}
+                  className="w-28 sm:w-40 h-auto rounded-xl object-cover"
+                />
+              </div>
+              <div className="text-center sm:text-left">
+                <h1 className="text-2xl font-bold text-blue-900">{item.institution}</h1>
+                <p className="text-lg text-gray-800">{item.course}</p>
+                <h2 className="text-md text-green-700">{item.duration}</h2>
               </div>
             </div>
           ))}
