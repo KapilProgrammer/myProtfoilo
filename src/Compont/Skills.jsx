@@ -7,14 +7,12 @@ export default function Skills() {
     { name: 'JavaScript', logo: '/Images/javascript.png', key: 2 },
     { name: 'Tailwind CSS', logo: '/Images/tailwent.png', key: 3 },
     { name: 'Dot Net MVC', logo: '/Images/dotnet.png', key: 4 },
-    { name: 'HTML5', logo: '/Images/html.png', key: 5 },
-    { name: 'Node Js', logo: '/Images/node.png', key: 6 },
-    { name: 'Java', logo: '/Images/java.png', key: 7 },
-    { name: 'C++', logo: '/Images/cpp.png', key: 8 },
-    { name: 'Bootstrap', logo: '/Images/bootstrap.png', key: 9 },
-    { name: 'CSS', logo: '/Images/css.png', key: 10 },
-    { name: 'Microsoft SQL', logo: '/Images/mssql.png', key: 11 },
-    { name: 'Mongo DB', logo: '/Images/mongo.png', key: 12 },
+    { name: 'Node Js', logo: '/Images/node.png', key: 5 },
+    { name: 'Java', logo: '/Images/java.png', key: 6 },
+    { name: 'Bootstrap', logo: '/Images/bootstrap.png', key: 7 },
+    { name: 'CSS', logo: '/Images/css.png', key: 8 },
+    { name: 'Microsoft SQL', logo: '/Images/mssql.png', key: 9 },
+    { name: 'Mongo DB', logo: '/Images/mongo.png', key: 10 },
   ];
 
   return (
