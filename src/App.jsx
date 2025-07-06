@@ -12,7 +12,7 @@ import Footer from './Compont/Footer';
 function App() {
   return (
     <>
-      <div className='bg-[rgb(15,23,42)] flex flex-col px-16'>
+      <div className='bg-[rgb(15,23,42)] flex flex-col px-0 sm:px-8 md:px-12 lg:px-16'>
         <Header />
         <Hero />
         <About />
