@@ -21,7 +21,7 @@ export default function Hero() {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 px-5 md:px-10 lg:px-20 flex flex-col-reverse lg:flex-row items-center justify-evenly gap-10 lg:gap-28">
+            <div className="relative z-10 px-5 md:px-10 lg:px-20 flex flex-col-reverse pt-25 lg:flex-row items-center justify-around gap-10 lg:gap-28">
                 {/* Text Section */}
                 <div className="flex flex-col gap-5 text-white text-center lg:text-left max-w-xl">
                     <h1 className="text-4xl sm:text-5xl font-bold text-green-400">Hi There,</h1>
@@ -56,7 +56,7 @@ export default function Hero() {
                         href="https://drive.google.com/file/d/1bWTyOQVzLkio7yGUBejJ9Pe9fKQXSSGZ/view"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-green-900 hover:bg-blue-700 text-white w-[80%] my-12 hover:text-yellow-300 px-6 py-2 rounded-full text-lg transition duration-500 mx-auto lg:mx-0"
+                        className="inline-block bg-green-900 hover:bg-blue-700 text-white w-[73%] my-12 hover:text-yellow-300 px-6 py-2 rounded-full text-lg transition duration-500 mx-auto lg:mx-0"
                     >
                         My Resume
                     </a>
@@ -67,7 +67,7 @@ export default function Hero() {
                     <img
                         src="/Images/myPhoto.png"
                         alt="Kapil"
-                        className="w-60 sm:w-72 md:w-96 h-auto rounded-full shadow-lg"
+                        className="w-60 sm:w-72 md:w-96 h-100 rounded-full shadow-lg"
                     />
                 </div>
             </div>
