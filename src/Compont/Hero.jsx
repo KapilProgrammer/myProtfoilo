@@ -53,7 +53,7 @@ export default function Hero() {
 
                     {/* Resume Button */}
                     <a
-                        href="https://drive.google.com/file/d/1bWTyOQVzLkio7yGUBejJ9Pe9fKQXSSGZ/view"
+                        href="https://drive.google.com/file/d/19D0nVGeyzaYWSbjSfdkmjseLqfD_to7U/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-green-900 hover:bg-blue-700 text-white w-[73%] my-12 hover:text-yellow-300 px-6 py-2 rounded-full text-lg transition duration-500 mx-auto lg:mx-0"
